@@ -1,49 +1,47 @@
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  font-weight: bold;
+  font-family: lato;
 }
-
-.banner1 {
-  background-color: #ffe7eb;
-  display: flex;
+.first-banner {
+  background-color: #ffedf0;
   height: 700px;
-  align-items: end;
-  padding: 5px 15% 0px;
-}
-.left-side {
-  margin: 0px 40px;
+  display: flex;
+  justify-content: space-around;
   align-items: center;
-  height: 70%;
 }
-.left-side h1 {
-  color: #272727;
-  font-size: 55px;
-  font-weight: bolder;
+.side {
+  width: 35%;
 }
-.left-side p {
-  color: #8f8f8f;
-  font-size: 14px;
+.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+.right img {
+  height: 90%;
+}
+h1 {
+  font-size: 60px;
+  font-weight: 800;
+  color: rgba(0, 0, 0, 0.829);
+}
+p {
+  padding: 30px 35px 30px 0px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.553);
+  line-height: 25px;
   font-weight: 500;
-  padding: 10px 60px 10px 0px;
-  line-height: 1.6;
+  scroll-behavior: smooth;
 }
-.right-side img {
-  height: 540px;
-}
-.shop {
-  background-color: #e55473;
+button {
+  background: rgb(234, 101, 123);
+  color: aliceblue;
+  padding: 15px 30px;
   border: none;
-  padding: 10px 20px;
-  color: white;
-  border-radius: 5px;
-  font-weight: 400;
+  border-radius: 6px;
+  font-size: 15px;
   cursor: pointer;
-}
-.shop:hover {
-  background-color: white;
-  color: #e55473;
-  border: 1px solid #e55473;
 }
