@@ -9,6 +9,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 60px;
 }
 .side {
   width: 35%;
@@ -34,7 +35,7 @@ p {
   color: rgba(0, 0, 0, 0.553);
   line-height: 25px;
   font-weight: 500;
-  scroll-behavior: smooth;
+  word-spacing: 3px;
 }
 button {
   background: rgb(234, 101, 123);
@@ -44,4 +45,84 @@ button {
   border-radius: 6px;
   font-size: 15px;
   cursor: pointer;
+}
+.second-banner {
+  padding: 70px 20px;
+}
+.title {
+  margin: 80px 40px 20px;
+  text-align: center;
+}
+h2 {
+  font-weight: 800;
+  font-size: 35px;
+}
+.featured-description {
+  padding: 20px 10px;
+  font-size: 16px;
+  color: rgba(0, 0, 0, 0.553);
+  line-height: 20px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+.featured {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+.photo {
+  height: 400px;
+  width: 350px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin: 15px;
+  border-radius: 200px 200px 10px 10px;
+}
+.photo > img {
+  height: 80%;
+}
+.one {
+  background-color: rgba(181, 181, 255, 0.53);
+}
+.two {
+  background-color: rgba(181, 255, 222, 0.53);
+}
+.three {
+  background-color: rgba(255, 181, 238, 0.53);
+}
+.name {
+  text-align: center;
+  font-size: 25 / px;
+  font-weight: bold;
+  padding: 5px;
+}
+.name > a {
+  text-decoration: none;
+  color: black;
+}
+.group {
+  background-color: rgba(162, 162, 162, 0.242);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 280px;
+  margin: 50px 180px;
+  border-radius: 15px;
+}
+.group-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.group-title {
+  font-size: 20px;
+  padding: 10px;
+  color: rgba(0, 0, 0, 0.559);
+  font-weight: 700;
 }
