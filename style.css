@@ -4,7 +4,7 @@
   font-family: lato;
 }
 .first-banner {
-  background-color: #ffedf0;
+  background-color: #ffedf0e4;
   height: 700px;
   display: flex;
   justify-content: space-around;
@@ -46,6 +46,13 @@ button {
   font-size: 15px;
   cursor: pointer;
 }
+button:hover {
+  color: rgb(255, 40, 76);
+  background-color: rgb(0, 0, 0);
+
+  transition: 0.5s;
+  overflow: hidden;
+}
 .second-banner {
   padding: 70px 20px;
 }
@@ -64,6 +71,8 @@ h2 {
   line-height: 20px;
   font-weight: 500;
   word-spacing: 3px;
+
+  text-align: center;
 }
 .featured {
   display: flex;
@@ -125,4 +134,74 @@ h2 {
   padding: 10px;
   color: rgba(0, 0, 0, 0.559);
   font-weight: 700;
+}
+.third-banner {
+  background-color: #ffedf0e4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 0px;
+  padding: 10px 150px;
+  height: 400px;
+}
+span {
+  color: rgb(255, 35, 71);
+}
+.third-right {
+  text-align: center;
+}
+.third-left {
+  text-align: center;
+
+  width: 50%;
+}
+.third-right > img {
+  width: 75%;
+}
+.ig-photos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+.small-banner {
+  margin: 100px 200px;
+  text-align: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-image: url(images/Rectangle9.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 99%;
+}
+.email {
+  width: 100%;
+}
+.small-banner > p {
+  padding: 0px;
+}
+input {
+  height: 48px;
+  width: 40%;
+  padding: 12px 30px;
+  border: 1px solid black;
+  margin: 10px 10px;
+  display: inline-block;
+  border: none;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+footer {
+  padding: 70px 10px;
+  background-color: black;
+  height: 200px;
+  text-align: center;
+}
+.markers {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.486);
+  font-weight: 400;
 }
