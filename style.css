@@ -57,7 +57,6 @@ button:hover {
   padding: 70px 20px;
 }
 .title {
-  margin: 80px 40px 20px;
   text-align: center;
 }
 h2 {
@@ -76,9 +75,9 @@ h2 {
 }
 .featured {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   padding-bottom: 50px;
+  align-items: center;
 }
 
 .photo {
@@ -120,7 +119,6 @@ h2 {
   align-items: center;
   flex-wrap: wrap;
   height: 280px;
-  margin: 50px 180px;
   border-radius: 15px;
 }
 .group-box {
@@ -161,10 +159,17 @@ span {
 }
 .ig-photos {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
   padding: 10px;
   border-radius: 10px;
+  margin: 10px;
+}
+.ig-photo-box {
+  margin: 10px;
+}
+.ig-photo-box > img {
+  height: 300px;
 }
 .small-banner {
   margin: 100px 200px;
@@ -204,4 +209,45 @@ footer {
   font-size: 12px;
   color: rgba(255, 255, 255, 0.486);
   font-weight: 400;
+}
+/* midea queries */
+@media screen and (max-width: 767px) {
+  .fourth-banner {
+    display: none;
+  }
+  .third-banner {
+    display: none;
+  }
+  .right {
+    display: none;
+  }
+  .first-banner {
+    width: 100%;
+    text-align: center;
+    height: 400px;
+    align-items: start;
+  }
+  .side {
+    width: 90%;
+  }
+  h1 {
+    font-size: 30px;
+    padding-top: 50px;
+  }
+  .top-para {
+    padding: 30px 15px;
+  }
+  .box {
+    margin: 40px 10px;
+  }
+  .title {
+    margin: 10px;
+  }
+  .featured {
+    flex-direction: column;
+  }
+  .group {
+    height: 600px;
+    flex-direction: column;
+  }
 }
