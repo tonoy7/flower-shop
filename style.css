@@ -47,9 +47,7 @@ button {
   cursor: pointer;
 }
 button:hover {
-  color: rgb(255, 40, 76);
-  background-color: rgb(0, 0, 0);
-
+  background-color: rgb(255, 46, 81);
   transition: 0.5s;
   overflow: hidden;
 }
@@ -240,6 +238,7 @@ footer {
     flex-direction: column;
   }
   .photo {
+    overflow: hidden;
   }
   .group {
     height: 600px;
@@ -268,7 +267,7 @@ footer {
     width: 40%;
   }
   .ig-photos {
-    display: none;
+    flex-wrap: wrap;
   }
   .small-banner {
     margin: 0px;
