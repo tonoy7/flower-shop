@@ -55,7 +55,10 @@ button:hover {
   padding: 70px 20px;
 }
 .title {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 h2 {
   font-weight: 800;
@@ -68,7 +71,7 @@ h2 {
   line-height: 20px;
   font-weight: 500;
   word-spacing: 3px;
-
+  width: 45%;
   text-align: center;
 }
 .featured {
@@ -234,6 +237,13 @@ footer {
   .title {
     margin: 10px;
   }
+  .featured-description {
+    width: 90%;
+  }
+  h2 {
+    text-align: center;
+    font-size: 30px;
+  }
   .featured {
     flex-direction: column;
   }
@@ -280,5 +290,9 @@ footer {
   }
   .email > p {
     padding: 20px;
+  }
+
+  .email > input {
+    width: 70%;
   }
 }
