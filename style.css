@@ -170,6 +170,7 @@ span {
 }
 .ig-photo-box > img {
   height: 300px;
+  border-radius: 150px;
 }
 .small-banner {
   margin: 100px 200px;
